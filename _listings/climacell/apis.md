@@ -9,11 +9,24 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-clim
 x-kinRank: "9"
 x-alexaRank: "617213"
 tags: Page
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/climacell/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: ClimaCell API - Get Alerts
+  x-api-slug: alerts-get
+  description: |-
+    ### List all Alerts
+
+    Page through a list of all your alerts. You can specify the maximum number of results to be retuned, and from which result to start.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg
+  humanURL: https://www.climacell.co
+  baseURL: https://api2.climacell.co//v2
+  tags: Weather, API Provider, Profiles, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/climacell/alerts-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://clickatell.api.gallery.streamdata.io

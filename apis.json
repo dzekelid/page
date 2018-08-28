@@ -1,0 +1,451 @@
+{
+	"name": "Streadata.io API Gallery - Page",
+	"description": "This is a repository of page APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/page.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-28",
+	"url": "http://page.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Facebook",
+			"x-api-slug": "facebook",
+			"description": "Create an account or log into Facebook. Connect with friends, family and other people you know. Share photos and videos, send messages and get updates.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebook.jpg",
+			"humanURL": "http:///business",
+			"baseURL": "https:///",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/facebook/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "DonorsChoose",
+			"x-api-slug": "donorschoose",
+			"description": "DonorsChoose.org connects teachers in high-need communities with donors who want to help.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/394-donorschoose.jpg",
+			"humanURL": "http://donorschoose.org",
+			"baseURL": "https://api.donorschoose.org/common/",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/donorschoose/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GoToMeeting",
+			"x-api-slug": "gotomeeting",
+			"description": "Citrix enables business mobility through the secure delivery of apps and data to any device on any network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/731-gotomeeting.jpg",
+			"humanURL": "https://citrixonline.com",
+			"baseURL": "https://api.citrixonline.com//identity/v1",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/gotomeeting/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Instructure",
+			"x-api-slug": "instructure",
+			"description": "Instructure makes software that makes smarter people. Products include Canvas LMS, Bridge and Canvas Network.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/820-instructure.jpg",
+			"humanURL": "http://instructure.com",
+			"baseURL": "https://canvas.instructure.com//api/v1",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/instructure/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Reddit",
+			"x-api-slug": "reddit",
+			"description": "Reddit is a community of millions of users engaging in the creation of content and the sharing of conversation across tens of thousands of topics.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddit.jpg",
+			"humanURL": "http://www.reddit.com",
+			"baseURL": "https:///",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/reddit/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "OneNote",
+			"x-api-slug": "onenote",
+			"description": "Microsoft OneNote (formerly called Microsoft Office OneNote) is a computer program for free-form information gathering and multi-user collaboration. It gathers users notes (handwritten or typed), drawings, screen clippings and audio commentaries. Notes can be shared with other OneNote users over the Internet or a network. OneNote is available as a part of the Microsoft Office suite. It is also available as a free stand-alone application for Windows, Mac, Windows RT, Windows Phone, iOS, Android and Symbian.[4] A web-based version of OneNote is provided as part of OneDrive or Office Online and enables users to edit notes via a web browser.",
+			"image": "https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png",
+			"humanURL": "http://onenote.com",
+			"baseURL": "https://www.onenote.com//api/v1.0/me/notes/",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/onenote/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GlobalChange.gov",
+			"x-api-slug": "globalchange-gov",
+			"description": "The U.S. Global Change Research Program (USGCRP) was established by Presidential Initiative in 1989 and mandated by Congress in the Global Change Research Act (GCRA) of 1990 to &ldquo;assist the Nation and the world to understand, assess, predict, and respond to human-induced and natural processes of global change.&rdquo;",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png",
+			"humanURL": "http://globalchange.gov/",
+			"baseURL": "https://data.globalchange.gov//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/globalchange-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Healthcare.gov",
+			"x-api-slug": "healthcare-gov",
+			"description": "HealthCare.gov is a health insurance exchange website operated under the United States federal government under the provisions of the Patient Protection and Affordable Care Act (ACA, often known as Obamacare), designed to serve the residents of the thirty-six U.S. states that opted not to create their own state exchanges. The exchange facilitates the sale of private health insurance plans to residents of the United States[2] and offers subsidies to those who earn less than four times the federal poverty line. The website also assists those persons who are eligible to sign up for Medicaid, and has a separate marketplace for small businesses.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Healthcare.gov_logo.png",
+			"humanURL": "http://www.healthcare.gov",
+			"baseURL": "https://www.healthcare.gov//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/healthcare-gov/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Shopify",
+			"x-api-slug": "shopify",
+			"description": "Shopify is a commerce platform that allows anyone to easily sell online at a retail location and everywhere in between. It offers a professional online storefront, a payment solution to accept credit cards, and the Shopify POS application to power retail sales.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png",
+			"humanURL": "https://www.shopify.com/",
+			"baseURL": "https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/shopify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "New Relic",
+			"x-api-slug": "new-relic",
+			"description": "New Relic???s digital intelligence platform lets developers, ops, and tech teams measure and monitor the performance of their applications and infrastructure.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/22963-new-relic.jpg",
+			"humanURL": "https://newrelic.com/",
+			"baseURL": "https:///v2/",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/new-relic/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Blogger",
+			"x-api-slug": "blogger",
+			"description": "Blogger is a blog-publishing service that allows multi-user blogs with time-stamped entries. It was developed by Pyra Labs, which was bought by Google in 2003. Generally, the blogs are hosted by Google at a subdomain of blogspot.com. Blogs can also be hosted in the registered custom domain of the blogger (like www.example.com).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png",
+			"humanURL": "https://www.blogger.com",
+			"baseURL": "://www.googleapis.com//blogger/v3",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Slides",
+			"x-api-slug": "google-slides",
+			"description": "The Google Slides API lets you create and modify Google Slides presentations. Apps can integrate with the Google Slides API to create beautiful slide decks automatically from user- and system-provided data. For example, you could use customer details from a database and combine them with predesigned templates and selected configuration options to create finished presentations in a fraction of the time it would take to create them manually.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-slides-icon.png",
+			"humanURL": "https://docs.google.com/presentation/",
+			"baseURL": "://slides.googleapis.com//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/google-slides/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Botify",
+			"x-api-slug": "botify",
+			"description": "We are passionate about SEO. Botify offers unparalleled insights into your websites SEO through crawl data and log analysis.    Optimize your website and see the organic traffic results youve been seeking. Founded in 2012, Botify is a SaaS SEO platfo...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28561-botify.jpg",
+			"humanURL": "http://www.botify.com",
+			"baseURL": "https://api.botify.com//v1",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/botify/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "ClimaCell",
+			"x-api-slug": "climacell",
+			"description": "ClimaCell provides the most accurate weather data in the world by integrating proprietary data extracted from wireless networks and other new sensing technologies with data from traditional sensors. With 90% correlation to ground truth (vs. 50% using radar), it&rsquo;s the best you can get for your enterprise.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28707-climacell.jpg",
+			"humanURL": "https://www.climacell.co",
+			"baseURL": "https://api2.climacell.co//v2",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/climacell/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bookeo",
+			"x-api-slug": "bookeo",
+			"description": "Bookeo provides a leading online booking and scheduling system for tours, classes, and appointments, to help you save money and time. Click to learn more!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28769-www-bookeo-com.jpg",
+			"humanURL": "https://www.bookeo.com",
+			"baseURL": "https://api.bookeo.com//v2",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/bookeo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/xibo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Docsmore",
+			"x-api-slug": "docsmore",
+			"description": "FORM.FILL.SIGN - With Docsmore, the process of setting up a form and sending to users to complete or sign is simplified.  Use our platform to easily upload a document, specify form fields/signage, and send to users for completion.  Present forms to you...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28946-api-docsmore-com.jpg",
+			"humanURL": "http://api.docsmore.com",
+			"baseURL": "https://api.docsmore.com//",
+			"tags": "Page",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/docsmore/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Page",
+	"include": [
+		{
+			"name": "Facebook",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/facebook/apis.yaml"
+		},
+		{
+			"name": "DonorsChoose",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/donorschoose/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "GoToMeeting",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/gotomeeting/apis.yaml"
+		},
+		{
+			"name": "Instructure",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/instructure/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "Reddit",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/reddit/apis.yaml"
+		},
+		{
+			"name": "OneNote",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/onenote/apis.yaml"
+		},
+		{
+			"name": "GlobalChange.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/globalchange-gov/apis.yaml"
+		},
+		{
+			"name": "Healthcare.gov",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/healthcare-gov/apis.yaml"
+		},
+		{
+			"name": "Shopify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/shopify/apis.yaml"
+		},
+		{
+			"name": "New Relic",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/new-relic/apis.yaml"
+		},
+		{
+			"name": "Blogger",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/apis.yaml"
+		},
+		{
+			"name": "Google Slides",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/google-slides/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "Botify",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/botify/apis.yaml"
+		},
+		{
+			"name": "ClimaCell",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/climacell/apis.yaml"
+		},
+		{
+			"name": "Bookeo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/bookeo/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/xibo/apis.yaml"
+		},
+		{
+			"name": "Docsmore",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/docsmore/apis.yaml"
+		}
+	]
+}

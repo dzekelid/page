@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Shopify
 x-complete: 1
@@ -92,4 +91,3 @@ paths:
       - By
       - Its
       - ID
----

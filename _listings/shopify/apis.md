@@ -9,11 +9,51 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Page
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/shopify/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Shopify API - update a page
+  x-api-slug: adminpages216307854-json-put
+  description: Update a page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/shopify/adminpages216307854-json-put-openapi.md
+- name: Shopify API - Delete a page
+  x-api-slug: adminpages216307854-json-delete
+  description: Delete a page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/shopify/adminpages216307854-json-delete-openapi.md
+- name: Shopify API - Create a new page
+  x-api-slug: adminpages-json-post
+  description: Create a new page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/shopify/adminpages-json-post-openapi.md
+- name: Shopify API - Get a single page by its ID
+  x-api-slug: adminpages169722563-json-get
+  description: Get a single page by its id.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Shopify-logo.png
+  humanURL: https://www.shopify.com/
+  baseURL: https://DefaultParameterValue:DefaultParameterValue@DefaultParameterValue.myshopify.com//
+  tags: Commerce, Commerce, Target, Stack Network, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/shopify/adminpages169722563-json-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://ship.station.api.gallery.streamdata.io

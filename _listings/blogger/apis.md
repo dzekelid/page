@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Page
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/apis.md
 specificationVersion: "0.14"
 apis:
@@ -27,6 +27,83 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpages-get-openapi.md
+- name: Blogger - Add Blog Page
+  x-api-slug: blogsblogidpages-post
+  description: Add a page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: ://www.googleapis.com//blogger/v3
+  tags: Blog, Google APIs, Content, CMS, Stack Network, API Service Provider, API
+    Provider, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpages-post-openapi.md
+- name: Blogger - Delete Blog Page
+  x-api-slug: blogsblogidpagespageid-delete
+  description: Delete a page by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: ://www.googleapis.com//blogger/v3
+  tags: Blog, Google APIs, Content, CMS, Stack Network, API Service Provider, API
+    Provider, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpagespageid-delete-openapi.md
+- name: Blogger - Get Blog Page
+  x-api-slug: blogsblogidpagespageid-get
+  description: Gets one blog page by ID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: ://www.googleapis.com//blogger/v3
+  tags: Blog, Google APIs, Content, CMS, Stack Network, API Service Provider, API
+    Provider, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpagespageid-get-openapi.md
+- name: Blogger - Update Blog Page
+  x-api-slug: blogsblogidpagespageid-patch
+  description: Update a page. This method supports patch semantics.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: ://www.googleapis.com//blogger/v3
+  tags: Blog, Google APIs, Content, CMS, Stack Network, API Service Provider, API
+    Provider, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpagespageid-patch-openapi.md
+- name: Blogger - Update Blog Page
+  x-api-slug: blogsblogidpagespageid-put
+  description: Update a page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: ://www.googleapis.com//blogger/v3
+  tags: Blog, Google APIs, Content, CMS, Stack Network, API Service Provider, API
+    Provider, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpagespageid-put-openapi.md
+- name: Blogger - Publish Blog Page
+  x-api-slug: blogsblogidpagespageidpublish-post
+  description: Publishes a draft page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: ://www.googleapis.com//blogger/v3
+  tags: Blog, Google APIs, Content, CMS, Stack Network, API Service Provider, API
+    Provider, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpagespageidpublish-post-openapi.md
+- name: Blogger - Revert Blog Page
+  x-api-slug: blogsblogidpagespageidrevert-post
+  description: Revert a published or scheduled page to draft state.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/blogger-icon.png
+  humanURL: https://www.blogger.com
+  baseURL: ://www.googleapis.com//blogger/v3
+  tags: Blog, Google APIs, Content, CMS, Stack Network, API Service Provider, API
+    Provider, Profiles, General Data, Relative Data, Pedestal
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/page/master/_listings/blogger/blogsblogidpagespageidrevert-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://blockchain.api.gallery.streamdata.io
